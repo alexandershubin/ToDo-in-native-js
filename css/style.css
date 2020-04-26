@@ -1,0 +1,39 @@
+.form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+  padding: 10px;
+}
+
+.form__input {
+  grid-column: 2/span 30;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+}
+
+.form__button {
+  grid-column: 2/span 30;
+  height: 30px;
+  display: block;
+  border: none;
+  background: bisque;
+  max-width: 200px;
+  width: 100%;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  opacity: 0.5;
+}
+
+h2 {
+  grid-column: 2/span 30;
+}
+
+ul {
+  grid-column: 2/span 30;
+}
